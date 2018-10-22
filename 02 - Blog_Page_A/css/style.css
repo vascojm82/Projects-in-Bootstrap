@@ -1,0 +1,157 @@
+.navbar-custom{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a{
+  color: #FFF;
+}
+
+.navbar-header a{
+  font-size: 25px;
+}
+
+.nav li a:hover{
+  background: #F08346;
+}
+
+header{
+  background: url(../images/header.png);
+  width: 100%;
+  height: 428px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 50px;
+  color: #FFF;
+}
+
+header h1{
+  font-size: 50px;
+}
+
+.search-box{
+  padding: 10px;
+}
+
+.posts-container{
+  margin-top: -100px;
+}
+
+#post, .about-text{
+  margin-bottom: 40px;
+}
+
+.posts{
+  border-bottom: 1px solid #0C3A51;
+}
+
+.posts h2{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.posts h2 a, .sidebar h3, .sidebar p{
+  color: #0C3A51;
+}
+
+.posts h2 a:hover{
+  color: #F08346;
+}
+
+.posts p{
+  color: #0C3A51;
+}
+
+.post-date{
+  margin: -20px 0 30px 0;
+}
+
+.btn{
+  border-radius: 0;
+}
+
+.scaffold-btn-container{
+  padding: 50px 0;
+}
+
+.nav-center{
+  float: none;
+  display: table;
+  table-layout: fixed;
+  margin: 0 auto;
+}
+
+.navigation{
+  background: #0C384D;
+}
+
+.navigation li a{
+  color: #FFF;
+}
+
+.img-thumbnail{
+  margin: 5px 0 23px 0;
+}
+
+.about-text{
+  font-size: 18px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+.padding-left{
+  margin-left: 14px;
+}
+
+.sidebar-right, .sidebar-left{
+  padding: 20px 100px 20px 60px;
+  margin-top: 5px;
+}
+
+.sidebar-left h3, .sidebar-left p, .sidebar-right h3, .sidebar-right p,.header-subcontainer h2, .contact-form label, .page-header h2{
+  color: #0C3A51;
+}
+
+.nopadding-right{
+  padding-right: 0;
+}
+
+.sidebar-left{
+  margin-top: 80px;
+}
+
+.sidebar-left .widget-1 h3{
+  padding: 40px 40px 0 40px;
+}
+
+.sidebar-left ul{
+  list-style: none;
+  padding: 0 75px 0px 75px;
+}
+
+.sidebar-left .widget-1, .sidebar-left .widget-2, .sidebar-right .widget-1, .sidebar-right .widget-2, .sidebar-right .widget-3{
+  border-top: 3px solid #0D374D;
+  padding-bottom: 40px;
+}
+
+.sidebar-left .widget-1{
+  border-top: none;
+}
+
+.sidebar-right .widget-3 ul{
+  list-style: none;
+}
+
+.sidebar-right .widget-3 ul li{
+  border-radius: 0;
+  background: #337AB7;
+  padding: 7px;
+  margin: 3px;
+}
+
+.sidebar-right .widget-3 ul li a{
+  color: white;
+  text-decoration: none;
+}
