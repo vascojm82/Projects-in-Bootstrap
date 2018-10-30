@@ -49,9 +49,7 @@
 }
 
 .thumbnail{
-  position: relative;
   margin: 15px 0;
-  display: inline-block;
   width: 100%;
 }
 
@@ -69,6 +67,25 @@
   margin-top: 60px;
   text-align: center;
 }
+
+.padding-reset{
+  padding: 0;
+}
+
+/***** Product Page ******/
+.product-thumbnail-lg{
+  margin: 0 0 20px 0;
+  padding: 11.5px;
+}
+
+.product-thumbnail-lg img{
+  width: 61.5%;
+}
+
+.btn-buy{
+  margin: 10px 0 20px 10px;
+}
+/*********************************/
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 992px){
