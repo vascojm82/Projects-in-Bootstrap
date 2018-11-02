@@ -1,0 +1,188 @@
+body{
+  background-color: #edf0f5;
+}
+
+header{
+  background: rgb(77,104,161);
+  background: radial-gradient(90deg, rgba(77,104,161,1) 0%, rgba(59,89,152,1) 100%);
+  color: #FFF;
+  min-height: 100px;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+
+header form{
+  float: right;
+}
+
+header .logo{
+  float: left;
+  margin: 20px 0;
+}
+
+.lbl-signIn{
+  display: block;
+}
+
+.btn-signIn {
+  margin: -7px 0 0 20px;
+  background-color: #4267b2;
+  border-color: #29487d;
+  color: #FFF;
+}
+
+.btn-signIn:hover {
+  background-color: #365899;
+  border-color: #29487d;
+  color: #FFF;
+}
+
+#email label{
+  margin-top: -13px;
+}
+
+#email, #email input{
+  margin-right: 7px !important;
+}
+
+.checkbox-signIn{
+  margin-top: 5px !important;
+  padding-bottom: 5px;
+}
+
+.checkbox-signIn span{
+  font-size: 13px;
+  color: #9cb4d8;
+}
+
+#navbar{
+  padding: 0;
+}
+
+.panel-heading{
+  background-color: rgb(77,104,161) !important;
+  color: #FFF !important;
+}
+
+.bubble{
+  position: relative;
+  width: 580px;
+  min-height: 65px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.bubble:before{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 15px 15px 0;
+  border-color: transparent #ccc;
+  display: block;
+  width: 0;
+  z-index: 0;
+  margin-top: -15px;
+  left: -15px;
+  top: 50%;
+}
+
+.bubble:after{
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 15px 16px 15px 0;
+  border-color: transparent #fff;
+  display: block;
+  width: 0;
+  z-index: 1;
+  margin-top: -15px;
+  left: -15px;
+  top: 50%;
+}
+
+.post-actions{
+  margin: 5px;
+}
+
+.comment-form{
+  margin-bottom: 5px;
+}
+
+.comment-form .form-group{
+  width: 90%;
+}
+
+.comment-form input{
+  width: 100% !important;
+}
+
+.comment-avatar img{
+  width: 40px;
+  margin-right: 5px;
+  padding-top: 5px;
+}
+
+.comment-text{
+  padding-top: 5px;
+}
+
+.comment-text p{
+  margin-bottom: 5px;
+}
+
+.comment{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px 0;
+  overflow: auto;
+  width: 100%;
+}
+
+.friends li{
+  list-style: none;
+  padding: 0 5px;
+  display: inline;
+  float: left;
+}
+
+.friends img{
+  width: 55px;
+}
+
+.btn-color{
+  background-color: #4267b2;
+  border-color: #29487d;
+  color: #FFF;
+}
+
+.btn-color:hover{
+  background-color: #365899;
+  border-color: #29487d;
+  color: #FFF;
+}
+
+.groups img{
+  width: 80px;
+  float: left;
+  margin-right: 15px;
+}
+
+.group-item{
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+
+footer{
+  height: 90px;
+  color: #365899;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 30px;
+  border-top: 7px solid rgb(77,104,161);
+}
