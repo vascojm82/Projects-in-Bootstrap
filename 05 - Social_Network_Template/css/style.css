@@ -146,11 +146,16 @@ header .logo{
   width: 100%;
 }
 
+.friends div ul{
+  width: 90%;
+  margin: auto;
+  padding: 0;
+}
+
 .friends li{
   list-style: none;
   padding: 0 5px;
-  display: inline;
-  float: left;
+  display: inline-block;
 }
 
 .friends img{
@@ -270,6 +275,12 @@ footer{
 }
 
 /*** MEDIA QUERIES ***/
+@media only screen and (min-width: 1200px) {
+  .friends div ul{
+    width: 96%;
+  }
+}
+
 @media only screen and (min-width: 992px) {
 
 }
@@ -286,6 +297,10 @@ footer{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  .friends div ul{
+    width: 92%;
   }
 }
 
@@ -318,5 +333,9 @@ footer{
 
   .photos img{
     height: 80px;
+  }
+
+  .friends div ul{
+    width: 90%;
   }
 }
