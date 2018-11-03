@@ -308,7 +308,7 @@ footer{
   header .logo {
     display: block;
     float: none;
-    width: fit-content;
+    width: 100%;
     margin: 20px auto 40px auto;
   }
 
@@ -336,11 +336,35 @@ footer{
   }
 
   .friends div ul{
-    width: 90%;
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 568px){
+  .friends div ul {
+      width: 93%;
   }
 }
 
 @media only screen and (max-width: 424px) {
+  .friends div ul {
+      width: 91%;
+  }
+}
+
+@media only screen and (max-width: 387px) {
+  .friends div ul {
+      width: 102%;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .friends div ul {
+      width: 80%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
   .friends div ul {
       width: 91%;
   }
