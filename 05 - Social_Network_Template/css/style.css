@@ -244,15 +244,15 @@ header .logo{
 }
 
 .photos{
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
 }
 
 ul.photos li{
   list-style: none;
-  float: left;
+  display: inline-block;
   margin: 5px 15px 15px 0;
-  width: 23%;
+  width: 22%;
 }
 
 .photos img{
@@ -296,6 +296,7 @@ footer{
     width: fit-content;
     margin: 20px auto 40px auto;
   }
+
   .form-inline{
     float: none;
     display: block;
@@ -309,5 +310,13 @@ footer{
 
   .btn-signIn {
     margin: 0 0 20px 0px;
+  }
+
+  ul.photos li {
+    width: 20%;
+  }
+
+  .photos img{
+    height: 80px;
   }
 }
