@@ -59,6 +59,11 @@ header .logo{
   padding: 0;
 }
 
+.page-header {
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+
 .panel-heading{
   background-color: rgb(77,104,161) !important;
   color: #FFF !important;
@@ -160,7 +165,45 @@ header .logo{
 
 .btn-color:hover{
   background-color: #365899;
+  color: #FFF;
+}
+
+.btn-blue-gradient{
+  background: linear-gradient(rgba(77,104,161,1) 0%, rgba(76,107,172,1) 70%);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #29487d;
   border-color: #29487d;
+  color: #FFF !important;
+}
+
+.btn-blue-gradient:hover{
+  background: linear-gradient(rgba(77,104,161,1)0%, rgba(59,89,152,1) 100%);
+  color: #FFF;
+}
+
+.btn-white-gradient{
+  background: linear-gradient(rgba(255,255,255,1) 0%, rgba(226,229,235,1) 100%);
+  background-color: #FFF;
+  box-shadow: inset 0 1px 1px rgba(230,230,230,1);
+  border-color: #ccc;
+  color: #000;
+}
+
+.btn-white-gradient:hover {
+  background: linear-gradient(rgba(255,255,255,1) 0%, rgba(230,230,230,1) 70%);
+  color: #000;
+}
+
+.btn-green-gradient {
+  background: linear-gradient(#79bc64, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  color: #FFF !important;
+}
+
+.btn-green-gradient:hover {
+  background: linear-gradient(#67ae55, #578843);
   color: #FFF;
 }
 
@@ -177,6 +220,45 @@ header .logo{
   overflow: hidden;
 }
 
+.members .member-row{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+.members img, .members div>div{
+  margin-bottom: 5px;
+}
+
+.member-row div button {
+  margin-bottom: 10px;
+}
+
+.profile ul{
+  margin-top: 30px;
+}
+
+.profile li{
+  list-style: none;
+  line-height: 1.9em;
+}
+
+.photos{
+  margin: 0;
+  padding: 0;
+}
+
+ul.photos li{
+  list-style: none;
+  float: left;
+  margin: 5px 15px 15px 0;
+  width: 23%;
+}
+
+.photos img{
+  width: 100%;
+}
+
 footer{
   height: 90px;
   color: #365899;
@@ -185,4 +267,47 @@ footer{
   padding-top: 40px;
   margin-top: 30px;
   border-top: 7px solid rgb(77,104,161);
+}
+
+/*** MEDIA QUERIES ***/
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (max-width: 991px) {
+  .form-inline{
+    float: none;
+    display: block;
+    width: fit-content;
+    margin-left: 6px;
+  }
+
+  .members img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .logo {
+    display: block;
+    float: none;
+    width: fit-content;
+    margin: 20px auto 40px auto;
+  }
+  .form-inline{
+    float: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .checkbox-signIn div{
+    margin-left: 25px;
+  }
+
+  .btn-signIn {
+    margin: 0 0 20px 0px;
+  }
 }
